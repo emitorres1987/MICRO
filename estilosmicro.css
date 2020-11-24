@@ -1,0 +1,356 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,200;1,400&display=swap');
+</style>
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+  background-color:#f6e58d;
+  
+}
+
+.logo{
+	grid-area: logo;
+	background-color:#f6e58d; 
+
+}
+.info{
+	grid-area:info;
+	background-color:#f6e58d;
+}
+
+.uno{
+	grid-area: uno;
+	background-color: #ffbe76;
+	padding: 5px; 
+	}
+
+.dos{
+	grid-area: dos;
+	background-color: #ffbe76;
+	padding: 5px;
+}
+
+.tres{
+	grid-area: tres;
+	background-color:#ffbe76;
+	padding: 5px;
+}
+.footer{
+	grid-area: footer;
+	background-color: #283d52;
+}
+
+@media (min-width: 500px){
+.grid-container{
+ margin: 8px;
+ gap:5px;
+display: grid;
+ grid-template-rows: 100px 100px 400px 400px 400px 100px; 
+ grid-template-areas: 
+ "logo"
+ "info"
+ "uno"
+ "dos"
+ "tres"
+ "footer";}
+
+ h1{
+ 	font-size: 28px;
+ 	text-align: center;
+    box-sizing: border-box;
+    color:#fff;
+    margin:auto;}
+
+ h2{
+ 	font-size: 21px;
+ 	color:#283d52;
+ 	font-weight: bold;
+ 	text-align: center;
+    box-sizing: border-box;}
+
+ p{
+ 	font-size: 14px;
+ 	color:#283d52;
+ 	text-align: center;
+ 	font-weight: lighter;
+    box-sizing: border-box;} 
+}
+
+#visibilidad{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	align-content: center;
+	box-sizing: border-box;
+}
+
+#cromatica{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right:50px;
+	align-content: center;
+	box-sizing: border-box;
+}
+
+.familia{
+	color:#fff;
+	font-weight: bold;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+footer ul li{
+	list-style: none;
+    margin-left: auto;
+	margin-left: auto;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+}
+@media (min-width: 800px){
+.grid-container{
+ gap:10px;
+ margin-right: 10px;
+ margin-left: 10px;
+ grid-template-columns:400px auto 400px;
+ grid-template-rows: 100px 100px 400px 100px; 
+ grid-template-areas: 
+ "logo    logo    logo"
+ "info    info    info"
+ "uno     dos     tres" 
+ "footer  footer  footer";}
+
+h1{
+ 	font-size: 28px;
+ 	color:#fff;;
+ 	text-align: center;
+    box-sizing: border-box;
+    margin:auto;}
+
+ h2{
+ 	font-size: 21px;
+ 	color:#283d52;
+ 	font-weight: bold;
+ 	text-align: center;
+ box-sizing: border-box;}
+
+ p{
+ 	font-size: 14px;
+ 	color:#283d52;
+ 	text-align: center;
+ 	font-weight: lighter;
+ box-sizing: border-box;} 
+
+#visibilidad{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	align-content: center;
+	box-sizing: border-box;
+}
+
+#cromatica{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right:50px;
+	align-content: center;
+	box-sizing: border-box;
+}
+
+.familia{
+	color:#fff;
+	font-weight: bold;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+footer ul li{
+	list-style: none;
+    margin-left: auto;
+	margin-left: auto;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+}
+@media (min-width: 800px){
+.grid-container{
+ gap:10px;
+ grid-template-columns:400px auto 400px;
+ grid-template-rows: 100px 100px 400px 100px; 
+ grid-template-areas: 
+ "logo    logo    logo"
+ "info    info    info"
+ "uno     dos     tres" 
+ "footer  footer  footer";}
+
+h1{
+ 	font-size: 28px;
+ 	color:#fff;
+ 	text-align: center;
+    box-sizing: border-box;
+    margin:auto;}
+
+ h2{
+ 	font-size: 21px;
+ 	color:#283d52;
+ 	font-weight: bold;
+ 	text-align: center;
+ box-sizing: border-box;}
+
+ p{
+ 	font-size: 14px;
+ 	color:#283d52;
+ 	text-align: center;
+ 	font-weight: lighter;
+ box-sizing: border-box;} 
+
+#visibilidad{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	align-content: center;
+	box-sizing: border-box;
+}
+
+#cromatica{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right:50px;
+	align-content: center;
+	box-sizing: border-box;
+}
+
+.familia{
+	color:#fff;
+	font-weight: bold;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+footer ul li{
+	list-style: none;
+    margin-left: auto;
+	margin-left: auto;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+}
+
+@media (min-width: 1200px){
+.grid-container{
+ gap:10px;
+ margin-left: 43px;
+ margin-right: 43px;
+ grid-template-columns:400px auto 400px;
+ grid-template-rows: 100px 100px 400px 100px; 
+ grid-template-areas: 
+ "logo    logo    logo"
+ "info    info    info"
+ "uno     dos     tres" 
+ "footer  footer  footer";}
+
+h1{
+ 	font-size: 28px;
+ 	color:#fff;
+ 	text-align: center;
+    box-sizing: border-box;
+    margin:auto;
+}
+
+ h2{
+ 	font-size: 21px;
+ 	color:#283d52;
+ 	font-weight: bold;
+ 	text-align: center;
+    box-sizing: border-box;}
+
+ p{
+ 	font-size: 14px;
+ 	color:#283d52;
+ 	text-align: center;
+ 	font-weight: lighter;
+    box-sizing: border-box;} 
+
+#visibilidad{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	align-content: center;
+	box-sizing: border-box;
+}
+
+#cromatica{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right:50px;
+	align-content: center;
+	box-sizing: border-box;
+}
+
+.familia{
+	color:#fff;
+	font-weight: bold;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+footer ul li{
+	list-style: none;
+    margin-left: auto;
+	margin-left: auto;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+}
